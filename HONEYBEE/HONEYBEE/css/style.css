@@ -1,0 +1,199 @@
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#naglowek {
+    text-align: center;
+    margin-top:-100px;
+}
+
+#logo{
+    height:400px;
+    width:400px;
+    margin: 10px;
+}
+
+#pasek ul {
+    list-style-type: none;
+    margin-top:-100px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#pasek li {
+    float:left;
+    font-weight: bold;
+}
+
+#pasek li a {
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#pasek li a:hover {
+    background-color: #ff9d00;
+}
+
+#pasek li+li {
+    margin-left:80px;
+}
+
+.zdjecie {
+    width:50%;
+    float:left;
+    text-align:center;
+    margin-top:20px;
+}
+
+.tekst{
+    width:50%;
+    float:right;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#tytul{
+    margin-top:70px;
+    color:#ff9d00;
+}
+
+#opis{
+    width:90%;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+ol{
+    list-style-type:disc;
+    line-height:2.5;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+button {
+    padding: 15px 90px;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    background: #ff9d00;
+    color: #fff;
+    cursor: pointer;
+}
+
+label{
+    font-weight: bold;
+}
+
+select{
+    margin-top:20px;
+    margin-left:20px;
+    width: 20%;
+    cursor: pointer;
+    padding: 10px 15px;
+    color: black;
+    font-family: 'Montserrat';
+}
+
+form p{
+    font-size:14px;
+    margin-left:10px;
+    margin-bottom:100px;
+}
+
+#stopka{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size:15px;
+}
+
+#mapa{
+    margin-top:50px;
+}
+
+.zdjecie-prawo {
+    width:50%;
+    float:right;
+    text-align:center;
+    margin-top:150px;
+}
+
+.tekst-lewo{
+    width:35%;
+    float:left;
+    margin-top: 160px;
+    margin-bottom:300px;
+}
+
+.tekst-lewo p{
+    margin-left:180px;
+    font-size: 22px;
+}
+
+.tekst-ule{
+    margin-top:100px;
+}
+
+.tekst-ule p{
+    font-size: 20px;
+}
+
+.zdjecie-ule {
+    width:50%;
+    float:left;
+    text-align:center;
+    margin-top:50px;
+}
+
+.zdjecie-ule img{
+    border:7px solid #ff9d00;
+    border-radius:10px;
+}
+
+#zakup{
+    margin-top:-20px;
+    margin-bottom:150px;
+    font-size:15px;
+}
+
+#zakup a{
+    text-decoration: underline;
+    color:#ff9d00;
+    font-weight: bold;
+}
+
+li a{
+    text-decoration: underline;
+    color:#ff9d00;
+    font-weight: bold;
+}
+
+.tekst-kontakt{
+    margin-top:100px;
+}
+
+.zdjecie-prawo img{
+    border:7px solid #ff9d00;
+    border-radius:10px;
+}
+
+.tekst-dostawa{
+    width:80%;
+    float:right;
+    margin-right:100px;
+}
+
+#ostatnia{
+    margin-bottom:150px;
+}
